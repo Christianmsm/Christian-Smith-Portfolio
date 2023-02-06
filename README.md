@@ -28,10 +28,14 @@ The 'Contact' section has icons that links you too the corresponding platform, a
 
 Attached are links to my GitHub Repo, published site, & a screenshot of the deployed site.
 
+GitHub Repo:
 https://github.com/Christianmsm/Christian-Smith-Portfolio
 
+Screenshot of deployed site:
+![](2023-02-06-16-51-54.png)
 
-
+Deployed site:
+https://christianmsm.github.io/Christian-Smith-Portfolio/
 
 ## Credits
 
