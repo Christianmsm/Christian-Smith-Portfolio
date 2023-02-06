@@ -1,0 +1,170 @@
+* {
+  border: 1px solid red;
+}
+
+header {
+  background-color: #003049;
+  padding: 1em;
+  Color: #cc9c4a;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+header h1 {
+  background-color: none;
+  font-size: 50px;
+}
+
+header li {
+  float: right;
+  margin: 20px;
+  font-size: 30px;
+  margin-bottom: 0px;
+
+}
+
+.hero-label {
+  background-color: #cc9c4a;
+  font-size: 20px;
+  float: right;
+  position: relative;
+  bottom: -5.3rem;
+  width: fit-content;
+  padding: 1%;
+  margin-right: 1%;
+}
+
+.hero {
+  height: 300px;
+  width: 100%;
+  background-image: url("/Users/christiansmith/Documents/bootcampOSU/Bootcamp-homework/Christian-Smith-Portfolio/assets/Images/jerry-zhang-hkhCV41gOpA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  background-color: #fdf0d5;
+}
+
+.aside-img {
+  width: 10%;
+  height: 10%;
+  float: left;
+}
+/* Created sperate styling properties for the aside headers
+to be able to style them freely independent from the others. Added some padding and 
+adjusted the width to make them fit where I wanted. As well as added a border line
+on the right.*/
+.aside-header-about {
+  padding: 2%;
+  padding-bottom: 6%;
+  float: left;
+  width: 20%;
+  font-size: 210%;
+  border-right: 5px #003049 solid;
+  flex-wrap: wrap;
+}
+
+h2 {
+  width:fit-content;
+}
+
+.aside-header-work {
+  padding: 2%;
+  padding-bottom: 47.5%;
+  float: left;
+  width: 20%;
+  font-size: 210%;
+  border-right: 5px #003049 solid;
+}
+
+.aside-header-contact {
+  padding: 2%;
+  padding-left: 10%;
+  float: left;
+  width: 30%;
+  font-size: 210%;
+  border-right: 5px #003049 solid;
+}
+.about-me p {
+  display: flex;
+  font-size: 20px;
+  margin-right: 4%;
+  padding: 10px;
+  padding-bottom: 2%;
+  flex-wrap: wrap;
+
+}
+
+/* I made one "work label box for all of the boxes instead of having them 
+being seperate. This was to have less repetition and clean up my code.*/
+.work-label-box {
+  position: relative;
+  bottom: -4.9rem;
+  width: fit-content;
+  padding: 1%;
+}
+/* Created individual classes for the work boxes to then assign an image specific 
+to the work. For now I have the bottom three boxes holding the same image
+in time, I will change this as more work experience comes.*/
+.prework-study-guide {
+  background-image: url("../assets/Images/Prework-study-guide.png");
+}
+
+.challenge-01 {
+  background-image: url("../assets/Images/christianmsm.github.io_01-challenge_.png");
+}
+
+.work-placeholder {
+  background-image: url("../assets/Images/Work-placeholder.jpg");
+}
+
+.sub-work {
+  border: 5px solid #003049;
+  background-size: 125%;
+  margin: 1em;
+  position: relative;
+  min-height: 150px;
+  max-height: 150px;
+  max-width: 50%;
+  display: flex;
+align-items: baseline;
+  font-size: 20px;
+}
+
+div {
+background-color: #cc9c4a;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* I added more styling to the nav links to make them different that the psedo-class
+for all the links. This was to make them stand out more and when in the hover state you see a 
+line on the link. */
+nav a:link {
+  color:#cc9c4a;
+}
+
+nav a:visited {
+  color:#cc9c4a;
+}
+/* These pseudo-classes were used to style the link buttons for the different states they are in
+so the user knows what is happening at what state. */
+a:link {
+ color: black;
+text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.336);
+  text-decoration: underline;
+}
+
